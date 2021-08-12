@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {{>head}}
+</head>
+<body>
+  
+    <!-- main header -->
+  {{>navbar}}
+
+  <dov class="container-fluid main_header">
+    <div class="row">
+      <div class="col-md-12 col-12 mx-auto">
+        
+          <div class="row">
+            <!-- left-side div -->
+            <div class="col-md-12 col-12 main_header_left align-items-center"> 
+                    <img src="image\error.png" alt="person" class="img-fluid" style="width: 60rem; heigh:30rem;">
+                    <p>Welcome to Kurm Infotech world</p>
+                    <h1>{{errormsg}}</h1>
+                    <a href="http://kurminfotech.in" target="_kurm"><button>About me</button></a>
+            </div>
+          </div>
+      </div>
+    </div>
+  </dov>
+
+  <!-- footer -->
+ {{>footer}}
+</body>
+</html>
